@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MTest</string>
+    <string name="request">http://frozen-earth-90327.herokuapp.com/mobile</string>
+</resources>

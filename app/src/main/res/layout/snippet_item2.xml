@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/fab_material_white"
+    android:orientation="vertical"
+    android:gravity="center_vertical" >
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="4dp"
+        android:visibility="visible"
+        android:background="@drawable/gradient1" />
+
+    <TextView
+        fontPath="fonts/OpenSans-Regular.ttf"
+        android:id="@+id/textSeparator"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text=""
+        android:textAllCaps="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/fab_material_black"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:visibility="visible"
+        android:background="@color/fab_material_blue_grey_500" />
+
+
+
+</LinearLayout>
